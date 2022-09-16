@@ -1,0 +1,12 @@
+# Build files
+npm-debug.log
+node_modules
+dist
+*.vsix
+
+# JUNIT test results
+test-results.xml
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov

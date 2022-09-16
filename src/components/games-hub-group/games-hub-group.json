@@ -1,0 +1,15 @@
+{
+  "contributions": [
+    {
+      "id": "games-hub-group",
+      "type": "ms.vss-web.hub-group",
+      "description": "Adds a hub group to contain all games included with this extension.",
+      "targets": ["ms.vss-web.project-hub-groups-collection"],
+      "properties": {
+        "name": "Games",
+        "order": 100,
+        "icon": "asset://resources/logo.png"
+      }
+    }
+  ]
+}
