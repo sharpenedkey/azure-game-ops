@@ -13,7 +13,7 @@ const Game = () => {
   const [xIsNext, setXisNext] = useState(true);
   const winner = calculateWinner(board);
 
-  const handleClick = (i: any) => {
+  const handleClick = (i: number) => {
     const boardCopy = [...board];
     // If user click an occupied square or if game is won, return
     if (winner || boardCopy[i]) return;

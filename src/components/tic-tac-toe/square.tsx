@@ -8,7 +8,7 @@ const style = {
   outline: "none",
 };
 
-const Square = ({ value, onClick }: any) => (
+const Square = ({ value, onClick }: { value: string; onClick: () => void }) => (
   <button style={style} onClick={onClick}>
     {value}
   </button>
