@@ -6,7 +6,7 @@ import * as SDK from "azure-devops-extension-sdk";
 import { Header, TitleSize } from "azure-devops-ui/Header";
 import { Page } from "azure-devops-ui/Page";
 
-import Game from "./game";
+import Game from "./elements/game";
 
 import { showRootComponent } from "../../common";
 
