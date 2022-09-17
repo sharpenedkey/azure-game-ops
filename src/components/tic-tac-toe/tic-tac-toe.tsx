@@ -6,7 +6,7 @@ import { Page } from "azure-devops-ui/Page";
 
 import { showRootComponent } from "../../common";
 
-class Snake extends React.Component {
+class TicTacToe extends React.Component {
   constructor(props: {}) {
     super(props);
   }
@@ -17,11 +17,11 @@ class Snake extends React.Component {
 
   public render(): JSX.Element {
     return (
-      <Page className="snake flex-grow">
+      <Page className="tic-tac-toe flex-grow">
         <Header title="WIP" titleSize={TitleSize.Large} />
       </Page>
     );
   }
 }
 
-showRootComponent(<Snake />);
+showRootComponent(<TicTacToe />);

@@ -1,0 +1,15 @@
+{
+  "contributions": [
+    {
+      "id": "tic-tac-toe",
+      "type": "ms.vss-web.hub",
+      "targets": [".games-hub-group"],
+      "properties": {
+        "name": "Tic Tac Toe",
+        "uri": "dist/tic-tac-toe/tic-tac-toe.html",
+        "icon": "asset://resources/logo.png",
+        "supportsMobile": true
+      }
+    }
+  ]
+}
