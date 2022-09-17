@@ -1,3 +1,5 @@
+import "./tic-tac-toe.scss";
+
 import * as React from "react";
 import * as SDK from "azure-devops-extension-sdk";
 

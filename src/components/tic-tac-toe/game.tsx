@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import { Button } from "azure-devops-ui/Button";
 
 import { calculateWinner } from "./helpers";
 import Board from "./board";
 
 const styles = {
-  width: "200px",
+  width: "115px",
   margin: "20px auto",
 };
 
@@ -23,12 +24,6 @@ const Game = () => {
     setXisNext(!xIsNext);
   };
 
-  const jumpTo = () => {};
-
-  const renderMoves = () => (
-    <button onClick={() => setBoard(Array(9).fill(null))}>Restart Game</button>
-  );
-
   return (
     <>
       <Board squares={board} onClick={handleClick} />
@@ -38,7 +33,10 @@ const Game = () => {
             ? "Winner: " + winner
             : "Next Player: " + (xIsNext ? "X" : "O")}
         </p>
-        {renderMoves()}
+        <Button
+          text="Restart Game"
+          onClick={() => setBoard(Array(9).fill(null))}
+        />
       </div>
     </>
   );
