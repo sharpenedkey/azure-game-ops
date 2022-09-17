@@ -7,8 +7,7 @@
       "properties": {
         "name": "Snake",
         "uri": "dist/snake/snake.html",
-        "icon": "asset://resources/snake.png",
-        "supportsMobile": true
+        "icon": "asset://resources/snake.png"
       }
     }
   ]
