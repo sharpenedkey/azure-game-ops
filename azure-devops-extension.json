@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "azure-game-ops",
   "publisher": "sharpenedkey",
-  "version": "0.0.13",
+  "version": "0.0.17",
   "name": "Azure GameOps",
   "description": "Slack off at work while making it look like you're working! What more could you want?",
   "public": false,
