@@ -7,7 +7,7 @@
       "properties": {
         "name": "Tic-Tac-Toe",
         "uri": "dist/tic-tac-toe/tic-tac-toe.html",
-        "icon": "asset://resources/tic/tac/toe.png",
+        "icon": "asset://resources/tic-tac-toe.png",
         "supportsMobile": true
       }
     }
