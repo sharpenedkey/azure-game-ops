@@ -1,6 +1,6 @@
-import React from "react";
+import "./game.scss";
 
-import "./game.css";
+import React from "react";
 
 const HEIGHT = 10;
 const WIDTH = 10;
